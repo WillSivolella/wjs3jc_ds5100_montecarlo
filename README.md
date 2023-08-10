@@ -15,18 +15,18 @@ The Game class allows you to simulate playing a game with multiple dice objects.
 The Analyzer class helps you analyze the results of a game played with the Game class. It provides methods to calculate various statistical properties of the game results.
 
 # API
-* Die class
+* 'Die' class
   * __init__(faces)
   * set_weight(f_val, wt)
   * roll_die(rolls=1)
   * get_df()
   
-* Game class
+* 'Game' class
   * __init__(d_list)
   * play(rolls)
   * get_recent_play(form='w')
   
-* Analyzer class
+* 'Analyzer' class
   * __init__(g_obj)
   * jackpot()
   * fc_roll()
