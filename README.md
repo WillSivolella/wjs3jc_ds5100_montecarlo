@@ -16,19 +16,19 @@ The Analyzer class helps you analyze the results of a game played with the Game 
 
 # API
 * Die class
-** __init__(faces)
-** set_weight(f_val, wt)
-** roll_die(rolls=1)
-** get_df()
+  * __init__(faces)
+  * set_weight(f_val, wt)
+  * roll_die(rolls=1)
+  * get_df()
   
 * Game class
-** __init__(d_list)
-** play(rolls)
-** get_recent_play(form='w')
+  * __init__(d_list)
+  * play(rolls)
+  * get_recent_play(form='w')
   
 * Analyzer class
-** __init__(g_obj)
-** jackpot()
-** fc_roll()
-** combo_count()
-** perm_count()
+  * __init__(g_obj)
+  * jackpot()
+  * fc_roll()
+  * combo_count()
+  * perm_count()
