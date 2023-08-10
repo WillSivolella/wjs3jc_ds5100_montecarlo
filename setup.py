@@ -6,6 +6,6 @@ setup(
     url = 'https://github.com/WillSivolella/wjs3jc_ds5100_montecarlo.git',
     author = 'Will Sivolella',
     author_email = 'wjs3jc@virginia.edu',
-    packages = find.packages(),
+    packages = find_packages(),
     install_requires = ['pandas >= 0.2' ]
 )
